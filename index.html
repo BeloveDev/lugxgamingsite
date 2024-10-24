@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="aos.css">
     <title>Lugx Gaming Site </title>
 </head>
 
@@ -79,7 +80,7 @@
             </div>
         </div>
         <div class="trending-container">
-            <div>
+            <div  data-aos="flip-right">
                 <h4>TRENDING</h4>
                 <h1>Trending Games</h1>
             </div>
@@ -87,7 +88,7 @@
                 <button>VIEW ALL</button>
             </a>
         </div>
-        <div class="trending-content">
+        <div class="trending-content"  data-aos="flip-left">
             <div class="trending-game">
                 <div class="trending-1">
                     <div class="discount">
@@ -149,7 +150,7 @@
         </div>
         <div class="most-played-container">
             <div class="most-played-txt">
-                <div>
+                <div  data-aos="flip-right">
                     <h4>TOP GAMES</h4>
                     <h1>Most Played</h1>
                 </div>
@@ -157,7 +158,7 @@
                     <button>VIEW ALL</button>
                 </a>
             </div> 
-            <div class="most-played-content">
+            <div class="most-played-content"  data-aos="flip-left">
                 <div class="most-played-game">
                     <div><img src="./assets/images/top-game-01.jpg" alt=""></div>
                     <h4>Adventure</h4>
@@ -219,11 +220,11 @@
             </div>    
         </div>
         <div class="top-container">
-            <div class="top-txt">
+            <div class="top-txt"  data-aos="flip-right">
                 <h4>CATEGORIES</h4>
                 <h1>Top Categories</h1>
             </div>
-            <div class="top-content">
+            <div class="top-content"  data-aos="flip-left">
                 <div class="top-game">
                     <h4>Action</h4>
                     <img src="./assets/images/categories-01.jpg" alt="">
@@ -276,5 +277,7 @@
         <a href="#top" class="bi-arrow-up"></a>
     </div>
 </body>
+<script src="aos.js"></script>
+<script>AOS.init()</script>
 <script src="script.js"></script>
 </html>

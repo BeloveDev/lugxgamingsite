@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.css">
-    <title>LUGX Product Details Page</title>
+    <title>LUGX Contact Page</title>
 </head>
 <body>
-    <header>
+     <header>
         <nav>
             <img src="./assets/images/logo.png" alt="">
             <ul id="ul">
                 <li><a  href="index.html">Home</a></li>
                 <li><a href="shop.html">Our Shop</a></li>
-                <li><a href="#"  class="active">Product Details</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="product.html">Product Details</a></li>
+                <li><a href="#" class="active">Contact us</a></li>
                 <button>SIGN IN</button>
             </ul>
             <div class="nav-icon">
@@ -23,103 +23,83 @@
                 <i  class="bi-x-lg cancel"></i>
             </div>
         </nav>
-        <section class="section-shop product-shop">
-           <h1>MODERN WARFARE II</h1>
-           <p>Home > Shop > Assasin Creed</p>
+        <section class="section-shop">
+           <h1>CONTACT US</h1>
+           <p>Home > Contact Us</p>
         </section>
     </header>
-    <div class="duty-container">
-        <div class="container-img"><img src="./assets/images/single-game.jpg" alt=""></div>
-        <div class="container-txt">
-            <div class="duty">
-                <h1>Call of Duty: Modern Warfare II</h1>
-                <div class="price"><span>$28</span> $22 </div>
-            </div>
+    <div class="contact-container">
+        <div class="contact-us">
+            <h3>CONTACT US</h3>
+            <h1>Say Hello!</h1>
             <p>
-                LUGX Gaming Template is based on the latest Bootstrap 5 CSS framework. This template is provided <br>
-                by TemplateMo and it is suitable for your gaming shop ecommerce websites. Feel free to use this for <br>
-                any purpose. Thank you.
+                LUGX Gaming Template is based on the latest Bootstrap 5 CSS framework. This <br>
+                 template is provided by TemplateMo and it is suitable for your gaming shop <br>
+                 ecommerce websites. Feel free to use this for any purpose. Thank you.
             </p>
-            <div class="cart">
-                <div class="one">1</div>
-                <a href="#"><button><i class="bi-bag-fill"></i> ADD TO CART</button></a>
-            </div>
-            <table>
-                <tr>
-                    <th>Game ID:</th>
-                    <td>COD MMII</td>
-                </tr>
-                <tr>
-                    <th>Genre:</th>
-                    <td> Action, Team, Single</td>
-                </tr>
-                <tr>
-                    <th>Multi-tags:</th>
-                    <td> War, Battle, Royal</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <hr>
-    <div class="description">
-       <div class="review">
-        <h2><span>Description</span> | Reviews (3)</h2>
-        <p>
-            You can search for more templates on Google Search using keywords such as 
-            "templatemo digital marketing", "templatemo one-page", "templatemo gallery", etc.
-            Please tell your friends <br>
-            about our website. If you need a variety of HTML templates, you may visit Tooplate and Too CSS websites. <br><br>
-            Coloring book air plant shabby chic, crucifix normcore raclette cred swag artisan activated charcoal. PBR&B fanny pack pok pok 
-            gentrify truffaut kitsch helvetica jean shorts edison bulb <br>
-            poutine next level humblebrag la croix adaptogen. Hashtag poke literally locavore, beard marfa kogi bruh artisan
-            succulents seitan tonx waistcoat chambray taxidermy. Same cred meggings <br>
-            3 wolf moon lomo irony cray hell of bitters asymmetrical gluten-free art party raw denim chillwave
-            tousled try-hard succulents street art.
-        </p>
-       </div>
-    </div>
-   <div class="sub-section">
-    <div class="top-container">
-        <div class="top-txt btn">
-            <div class="yes">
-                <h4>ACTION</h4>
-                <h1>Related Games</h1>
-            </div>
-            <a href="shop.html">
-                <button>VIEW ALL</button>
-            </a>
-        </div>
-        <div class="top-content">
-            <div class="top-game">
-                <h4>Action</h4>
-                <img src="./assets/images/categories-01.jpg" alt="">
-            </div>
-            <div class="top-game">
-                <h4>Action</h4>
-                <img src="./assets/images/categories-05.jpg" alt="">
-            </div>
-            <div class="top-game">
-                <h4>Action</h4>
-                <img src="./assets/images/categories-03.jpg" alt="">
-            </div>
-            <div class="top-game">
-                <h4>Action</h4>
-                <img src="./assets/images/categories-04.jpg" alt="">
-            </div>
-            <div class="top-game">
-                <h4>Action</h4>
-                <img src="./assets/images/categories-05.jpg" alt="">
+            <div class="contact">
+               <div>
+                <h4>Address</h4>
+                <p>Aba, Abia State, Nigeria</p>
+               </div>
+               <div>
+                <h4>Phone</h4>
+                <p>+234 810 0213 439</p>
+               </div>
+               <div>
+                <h4>Email</h4>
+                <p>igwee7367@gmail.com</p>
+               </div>
             </div>
         </div>
-    </div>
+        <div class="contact-form">
+           <div class="emma"> </div>
+           <form action="index.html" onsubmit="return validation()">
+              <div class="input-holder">
+                <div>
+                    <div class="firsti" id="firsti">
+                      <i class="inputi" id="inputi"></i>
+                    </div>
+                   <input id="inputname" class="inputname" placeholder="Your Name..."  type="text" onkeyup="document.getElementById('firsti').style.display='none'">
+               </div>
+               <div>
+                   <div id="firsti-2">
+                    <i class="inputi-2"></i>
+                   </div>
+                   <input class="inputsurname" placeholder="Sur Name..."  type="text"  onkeyup="document.getElementById('firsti-2').style.display='none'">
+               </div>           
+              </div>
+              <div class="input-holder">
+                <div>
+                    <div id="firsti-3">
+                        <i class="inputi-3"></i>
+                    </div>
+                    <input class="inputemail" placeholder="Your E-Mail..." type="email" onkeyup="document.getElementById('firsti-3').style.display='none'">
+                </div>
+                <div>
+                    <div id="firsti-4">
+                        <i class="inputi-4"></i>
+                    </div>
+                    <input class="inputsubject" placeholder="Subject..." type="text" onkeyup="document.getElementById('firsti-4').style.display='none'">
+                </div>
+              </div>
+             <div class="textarea-holder">
+                <div id="firsti-5">
+                    <i class="inputi-5"></i>
+                </div>
+                <textarea class="textarea" placeholder="Your Message" name="" id="" cols="85" rows="8"  onkeyup="document.getElementById('firsti-5').style.display='none'"></textarea>
+             </div>
+              <div><button type="submit">SEND MESSAGE NOW</button></div>
+           </form>
+        </div>
     </div>
     <footer class="footer-pro">
-     <h3>Copyright © 2048 LUGX Gaming Company. All rights reserved.</h3>
-     <a href="#"> Design: Emma Belove</a>
+        <h3>Copyright © 2048 LUGX Gaming Company. All rights reserved.</h3>
+        <a href="#"> Design: Emma Belove</a>
     </footer>
     <div class="goup">
-      <a href="#top" class="bi-arrow-up"></a>
+       <a href="#top" class="bi-arrow-up"></a>
     </div>
 </body>
-<script src="script.js"></script>
+<script defer src="script.js"></script>
 </html>
